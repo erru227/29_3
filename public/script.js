@@ -11,5 +11,5 @@ function makePic() {
    let altText = "Sunflower Picture Not Shown";
    let new_code = <img src="flower.jpg" alt={altText}></img>;
 
-   root.render(<>page new_code</>);
+   root.render(<>{page} {new_code}</>);
 }
